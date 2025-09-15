@@ -1,0 +1,12 @@
+CREATE DATABASE sensores;
+USE sensores;
+CREATE TABLE temperatura_log(
+id INT AUTO_INCREMENT Primary Key,
+far FLOAT,
+hum FLOAT,
+temp FLOAT,
+fecha DATETIME
+);
+
+USE sensores;
+SELECT * FROM temperatura_log;
