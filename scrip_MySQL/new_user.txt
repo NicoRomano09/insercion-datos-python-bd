@@ -1,3 +1,0 @@
-CREATE USER 'nico'@'localhost' IDENTIFIED BY '1234';
-GRANT ALL PRIVILEGES ON sensores.* TO 'nico'@'localhost';
-FLUSH PRIVILEGES;
